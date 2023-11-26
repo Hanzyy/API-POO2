@@ -1,0 +1,27 @@
+Comandos utilizados para instalar as dependências:
+
+npm init -y
+
+npm install typescript ts-node @types/node --save-dev
+
+npx tsc --init
+
+npm install prisma --save-dev
+
+npx prisma init --datasource-provider sqlite
+
+npm install express --save
+
+npm install --save-dev @types/express
+
+
+
+Para fazer a migração do prisma, utiliza:
+
+npx prisma migrate dev --name init
+
+
+
+Para rodar o projeto no script.ts, usa o comando
+
+npx ts-node ./src/script.ts/
